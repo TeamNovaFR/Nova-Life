@@ -1,0 +1,13 @@
+﻿extensions: designer.cs generated.cs
+extensions: .cs .cpp .h
+// Copyright (c) 2019 Valentin LAMOTHE (MIT LICENSE)
+extensions: .aspx .ascx
+<%-- 
+Copyright (c) 2019 Valentin LAMOTHE (MIT LICENSE)
+--%>
+extensions: .vb
+'Copyright (c) 2019 Valentin LAMOTHE (MIT LICENSE)
+extensions:  .xml .config .xsd
+<!--
+Copyright (c) 2019 Valentin LAMOTHE (MIT LICENSE)
+-->

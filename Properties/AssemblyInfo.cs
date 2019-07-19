@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿// Copyright (c) 2019 Valentin LAMOTHE (MIT LICENSE)
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -10,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("TeamNova")]
 [assembly: AssemblyProduct("Nova-Life")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCopyright("Valentin LAMOTHE - Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

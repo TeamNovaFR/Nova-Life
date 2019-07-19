@@ -2,10 +2,9 @@
 using System;
 using UnityEngine;
 
-
-namespace Life
+namespace Life.Core
 {
-    public class Vehicle
+    class GameMode
     {
     }
 }
