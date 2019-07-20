@@ -47,7 +47,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Modules\Life\Core\GameMode.cs" />
+    <Compile Include="Modules\Life\Core\Gamemode.cs" />
     <Compile Include="Modules\Life\Vehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
