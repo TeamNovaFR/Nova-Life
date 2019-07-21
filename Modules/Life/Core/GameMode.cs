@@ -4,10 +4,10 @@ using UnityEngine;
 
 namespace Life.Core
 {
-    using UnityEngine;
-
     public class Gamemode : MonoBehaviour
     {
+
+        #region Callbacks
         /// <summary>
         /// Called when a player connect
         /// </summary>
@@ -34,6 +34,32 @@ namespace Life.Core
         /// </summary>
         /// <param name="vehicleId">The netId of the vehicle</param>
         public virtual void OnVehicleDeath(uint vehicleId) { }
+        #endregion
+
+        #region Methods
+        
+        /// <summary>
+        /// Create a static vehicle
+        /// </summary>
+        /// <param name="modelId">The modelId of the vehicle</param>
+        /// <param name="pos">The position of spawned vehicle</param>
+        /// <param name="rot">The rotation of spawned vehicle</param>
+        /// <param name="color1">The primary color of spawned vehicle</param>
+        /// <param name="color2">The secondary color of spawned vehicle</param>
+        public virtual void AddStaticVehicle(int modelId, Vector3 pos, Vector3 rot, string color1, string color2) { }
+
+        /// <summary>
+        /// Create a static vehicle with custom respawn time
+        /// </summary>
+        /// <param name="modelId">The modelId of the vehicle</param>
+        /// <param name="pos">The position of spawned vehicle</param>
+        /// <param name="rot">The rotation of spawned vehicle</param>
+        /// <param name="color1">The primary color of spawned vehicle</param>
+        /// <param name="color2">The secondary color of spawned vehicle</param>
+        public virtual void AddStaticVehicleEx(int modelId, Vector3 pos, Vector3 rot, string color1, string color2, float respawnTime) { }
+
+        #endregion
+        
     }
 
 }
